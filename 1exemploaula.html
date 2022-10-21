@@ -3,24 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>formulários</title>
+    <style>
+        p{
+            color: blueviolet;
+            background-color: #111;
+        }
+    </style>
 </head>
 <body>
-    <form action="teste.js" method="post">
-        <label for="">Nome</label>
-        <input type="number" name="nome" placeholder="Digite seu nome...">
-        <br>
-        <label for="">Sobrenome</label>
-        <input type="text" name="sobrenome" placeholder="Digite seu sobrenome...">
+    <!-- action = qual pág vai ser enviado -->
+    <!-- method = pode ser post ou get -->
+    <form action="teste.php" method="post">
+        <label>Nome</label>
+        <input type="text" name="nome completo" placeholder="Digite seu nome completo">
+        <br>    
+        <p>Meu nome é Lavínia, sou estudante da FAI</p>
+
+        <label>Senha</label>
+        <input type="password" name="senha" placeholder="Digite sua senha">
+        <div style="height:100px ;"></div>
         <br>
 
-        <label for="">País</label>
-        <select name="nome" id="123">
+        <label>País</label>
+        <select name="selecao" id="123">
             <option value="1">Brasil</option>
             <option value="2">Chile</option>
-        </select>
+        </select>   
+        <br>
+        <!-- radio = seleciona 1 opcao -->
+        <label>Radio</label>
+        <p style="color: blue;">Selecione o Valor</p>
+        <input type="radio" name="radio1" value="1">Valor 1<br>
+        <input type="radio" name="radio1" value="1">Valor 2<br>
 
+        <label>Chekbox</label>
+        <input type="checkbox" name="ck1" value="1" checked>Valor 1<br>
+        <input type="checkbox" name="ck1" value="2">Valor 2<br>
+        <input type="checkbox" name="ck1" value="3">Valor 3<br>
         <br>
         <br>
+        <!-- 1 op para criar botao -->
+        <input type="submit" name="Botão" value="Enviar">
+        <!-- 2 op para criar botao -->
+
         <button>Enviar formulario</button>
     </form>
 
