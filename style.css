@@ -5,46 +5,53 @@
 }*/
 /*tags*/
 p{
-	color: #FF7F50;
-	font-size: 30px;
+	color: white;
+	text-shadow: 1px 1px 1px #111111;
+	font-size: 15px;
 	font-family: Arial;
 }
 
 body {
 	background-color: #000000; 
 }
-*{
+*{ /*pagina toda*/
 	margin: 0;
 	padding: 0;
 	font-family: Arial;
 }
 header{
-	background-color: white;
+	background-color:rgb(75, 159, 170);
 	height: 80px;
 	padding: 20px;
 }
 footer{
 	clear: both;
-	background-color: white;
+	background-color:rgb(75, 159, 170);
 	height: 50px;
 	text-align: center;
 	padding: 10px;
 }
 
 h1{
-	color: #FFFF
+	color: #FF7F50;
+	text-shadow: 1px 1px 1px #111111;
+	text-align: center;
+	margin: 0 0 50px 0;
 }
-
  /*IDs*/
-#div_principal{
-	background-color: red;
-	min-height: 200px;
-	width: 60%;
-	float: left;
+#principal{
+	background-image: url('_imagens/foto.jpg');
+	background-size: 100%;
+	min-height: 400px;
+	padding: 80px;
 }
 
 /*CLASS*/
 .container{
 	width: 960px;
 	margin: 0 auto;
+}
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
 }
