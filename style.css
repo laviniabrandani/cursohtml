@@ -38,14 +38,32 @@ h1{
 	text-align: center;
 	margin: 0 0 50px 0;
 }
+
  /*IDs*/
 #principal{
 	background-image: url('_imagens/foto.jpg');
 	background-size: 100%;
 	min-height: 400px;
-	padding: 80px;
+	padding: 80px 0 80px 0;
+	clear: both;
 }
+#logo{
+	float: left;
+}
+#menu{
+	float: right;
+	margin-top: 30px;
 
+}
+#menu a{
+	text-decoration: none;
+	color: antiquewhite;
+	text-shadow: 1px 1px #000000;
+	padding: 52px 20px ;
+}
+#menu a:hover{
+	background-color: #FF7F50;
+}
 /*CLASS*/
 .container{
 	width: 960px;
@@ -53,5 +71,6 @@ h1{
 }
 .efeito{
 	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
 	padding: 80px 0 80px 0;
 }
